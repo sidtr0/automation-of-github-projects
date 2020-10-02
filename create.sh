@@ -1,7 +1,6 @@
 #!/bin/bash
 
 function create(){
-    cd
     cd /Users/thebluechalk/TheBlueChalk/projects
     mkdir $1
     cd automation-github
