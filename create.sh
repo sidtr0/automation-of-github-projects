@@ -1,7 +1,8 @@
 #!/bin/bash
 
 function create(){
-    cd /Users/thebluechalk/TheBlueChalk/projects
+    cd
+    # write cd command in whichever directory you make your projects
     mkdir $1
     cd automation-github
     python3 create.py $1
